@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, KeyboardEvent } from 'react'
+import React, { useState, useRef, KeyboardEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 
@@ -36,7 +36,7 @@ export function TagInput() {
       transition={{ duration: 0.3 }}
       onClick={() => inputRef.current?.focus()}
       className="t-input t-border flex flex-wrap items-center gap-2 px-3 py-2.5 rounded-xl border min-h-[48px] w-72 cursor-text transition-colors"
-      style={{ focusWithinBorderColor: '#a855f7' }}
+      style={{} as React.CSSProperties}
     >
       <AnimatePresence>
         {tags.map((tag, i) => (
