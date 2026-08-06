@@ -33,6 +33,13 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
+            href="https://mukundhpv.co.in"
+            className="text-xs px-3.5 py-1.5 rounded-full border transition-all"
+            style={{ color: 'var(--text-muted)', borderColor: 'var(--border-2)' }}
+          >
+            ← Portfolio
+          </a>
+          <a
             href="#"
             className="text-xs px-3.5 py-1.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20 hover:bg-purple-500/20 transition-all"
           >
