@@ -33,7 +33,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://mukundhpv.co.in"
+            href="https://www.mukundh.co.in"
             className="text-xs px-3.5 py-1.5 rounded-full border transition-all"
             style={{ color: 'var(--text-muted)', borderColor: 'var(--border-2)' }}
           >
