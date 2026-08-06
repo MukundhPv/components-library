@@ -1,0 +1,28 @@
+{
+  "name": "@design-repo/components",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "@storybook/blocks": "^8.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "storybook": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
