@@ -18,8 +18,8 @@ export function Header() {
     >
       <div className="flex items-center gap-4 px-4 w-56 border-r h-full shrink-0" style={{ borderColor: 'var(--border)' }}>
         <Link href="/" className="flex items-center group">
-          <span className="font-mono font-semibold text-base tracking-tight" style={{ color: 'var(--text)' }}>
-            D-Zine
+          <span className="font-semibold text-base tracking-tight" style={{ color: 'var(--text)' }}>
+            Mukundh PV
           </span>
         </Link>
       </div>
